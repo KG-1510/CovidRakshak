@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <h2>Patient Database </h2> </head>
+ <body>
+    <br>
+   
+    <table style="width:100%">
+      <tr>
+        <th>ID</th>
+        <th>Name</th> 
+        
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>
+         {% for i in columns.id %}
+         <p> {{i}} <p>
+         {% endfor%}
+
+        </td>
+        <td>
+         {% for i in columns.name %}
+         <p> {{i}} <p>
+         {% endfor%}
+        </td>
+        <td>
+         {% for i in columns.status%}
+         <p> {{i}} <p>
+         {% endfor%}
+        </td>
+        
+      </tr>
+      
+       
+      </tr>
+    </table>
+    
+ </body>
+
+
+</html>
+

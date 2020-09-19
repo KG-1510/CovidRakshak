@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <h2>These bITCHES Violating data </h2> </head>
+ <body>
+    <br>
+   
+    <table style="">
+      <tr>
+        <th>Start Time</th>
+        <th>End Time </th> 
+        <th>Measure of Violations </th>
+        <th>Date</th>
+
+      </tr>
+      <tr>
+        <td>
+          {% for i in columns.starttime %}
+          <p> {{i}} <p>
+          {% endfor%}
+        </td>
+
+        <td>
+          {% for i in columns.endtime%}
+          <p> {{i}} <p>
+          {% endfor%}
+        </td>
+
+        <td>
+          {% for i in columns.measureofviolations %}
+          <p> {{i}} <p>
+          {% endfor%}
+        </td>
+        <td>
+          {% for i in columns.date%}
+          <p> {{i}} <p>
+          {% endfor%}
+        </td>
+        
+      
+       
+      </tr>
+    </table>
+    
+ </body>
+
+
+</html>
+
