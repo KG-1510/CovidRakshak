@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@import url(https://fonts.googleapis.com/css2?family=Libre + Franklin:ital, wght@1, 200&display=swap);
+
+body {
+	font-family: 'Libre Franklin', sans-serif;
+}
+.wmc {
+	color: white !important;
+}
+.logoimg {
+	width: 20%px;
+	height: 50px;
+}
+
+#navbar {
+	position: sticky;
+	top: 0;
+	z-index: 999;
+}
+
+.navbar {
+	background-image: linear-gradient(to right, #ff1493, #5f1782);
+}
+.navbar-nav li {
+	padding: 0 10px;
+}
+.navbar-nav li a {
+	color: aliceblue !important;
+	font-weight: 600;
+}
+.fa-bars {
+	color: #fff;
+	font-size: 30px !important;
+}
+
+/*--------Banner Section ----*/
+
+#banner {
+	background-image: linear-gradient(to right, #ff1493, #5f1782);
+	clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+	color: white;
+}
+.text {
+	padding-top: 40px;
+	padding-bottom: 200px;
+}
+/*.spn{
+    padding-top: 80px !important;
+    
+}*/
+.title {
+	font-size: 35px;
+	font-weight: 600;
+	margin-top: 100px;
+}
+.responsive {
+	width: 100%;
+	height: auto;
+}
+/* Service section */
+#services {
+	padding: 80px 0;
+}
+.service-img {
+	width: 200px;
+	margin-top: 30px;
+}
+#services {
+	padding-right: 80px;
+	padding-left: 80px;
+	padding-top: 45px;
+}
+.services h4 {
+	padding: 5px;
+	margin-top: 25px;
+}
+.title1::before {
+	content: '';
+	background: #7b1798;
+	height: 5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: translateY(63px);
+}
+.title1::after {
+	content: '';
+	background: #7b1798;
+	height: 10px;
+	width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	display: block;
+	transform: translateY(8px);
+}
+@media screen and (max-width: 600px) {
+	#banner {
+		background-image: linear-gradient(to right, #ff1493, #5f1782);
+		clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+		color: white;
+	}
+	.title1::before {
+		background: none;
+	}
+	.title1::after {
+		background: none;
+	}
+}
+.services .btn-primary {
+	box-shadow: none;
+	padding: 8px 25px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 20px;
+	background-image: linear-gradient(to right, #ff1493, #5f1782);
+}
+
+/*Webinar Section */
+.covid{
+	margin-bottom: 80px !important;
+}
+.row2{
+	margin-top: 100px;
+}
+/* Footer */
+#footer {
+	background: black;
+	color: white;
+}
+.footer-box {
+	padding: 20px;
+}
+.footer-box img {
+	width: 280px;
+	margin-bottom: 20px;
+}
+.footer-box .form-control {
+	box-shadow: none !important;
+	border: none;
+	border-radius: 0;
+	margin-top: 25px;
+	max-width: 250px;
+}
