@@ -13,6 +13,12 @@ Best suited to run the program on IDLE and Python 3.7 on a Windows system.
 3. Run the ```GUI-RUN THIS.py``` file
 4. The user-friendly menu window will pop up, use it navigate through various modules
 
+## Demo video of the project:-
+
+Click the image to watch the demo of the entire project
+
+[![](http://img.youtube.com/vi/EQP51l5sMNM/0.jpg)](http://www.youtube.com/watch?v=EQP51l5sMNM "Covid Rakshak App")
+
 **This is how the menu page looks like, you can click the buttons for respective modules to work**
 
 ![Menu Screen](https://user-images.githubusercontent.com/60519359/89704178-56423c00-d96f-11ea-9918-22d045c92f2c.jpg)
@@ -60,8 +66,6 @@ Can be implemented for automating the surveillance rather than using actual poli
 
 ### RAKSHAK APP in one go 
 Click the video below to see how RAKSHAK - Web based all in one app can be used for Face Mask Detection, Social Distancing Detector, tracking COVID positive patients using centralized cloud data
-
-[![]("Full APP Demo")
 
 ## Tech/Framework used
 Built using
